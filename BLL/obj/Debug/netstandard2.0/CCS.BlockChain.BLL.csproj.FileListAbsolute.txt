@@ -1,0 +1,13 @@
+D:\workspaces\cloudchains\BlockChain\BlockChain\BLL\obj\Debug\netstandard2.0\CCS.BlockChain.BLL.csprojResolveAssemblyReference.cache
+D:\workspaces\cloudchains\BlockChain\BlockChain\BLL\obj\Debug\netstandard2.0\CCS.BlockChain.BLL.csproj.CoreCompileInputs.cache
+D:\workspaces\cloudchains\BlockChain\BlockChain\BLL\obj\Debug\netstandard2.0\CCS.BlockChain.BLL.AssemblyInfoInputs.cache
+D:\workspaces\cloudchains\BlockChain\BlockChain\BLL\obj\Debug\netstandard2.0\CCS.BlockChain.BLL.AssemblyInfo.cs
+D:\workspaces\cloudchains\BlockChain\BlockChain\BLL\bin\Debug\netstandard2.0\CCS.BlockChain.BLL.deps.json
+D:\workspaces\cloudchains\BlockChain\BlockChain\BLL\bin\Debug\netstandard2.0\CCS.BlockChain.BLL.dll
+D:\workspaces\cloudchains\BlockChain\BlockChain\BLL\bin\Debug\netstandard2.0\CCS.BlockChain.BLL.pdb
+D:\workspaces\cloudchains\BlockChain\BlockChain\BLL\bin\Debug\netstandard2.0\CCS.BlockChain.Model.dll
+D:\workspaces\cloudchains\BlockChain\BlockChain\BLL\bin\Debug\netstandard2.0\CCS.Common.dll
+D:\workspaces\cloudchains\BlockChain\BlockChain\BLL\bin\Debug\netstandard2.0\CCS.BlockChain.Model.pdb
+D:\workspaces\cloudchains\BlockChain\BlockChain\BLL\bin\Debug\netstandard2.0\CCS.Common.pdb
+D:\workspaces\cloudchains\BlockChain\BlockChain\BLL\obj\Debug\netstandard2.0\CCS.BlockChain.BLL.dll
+D:\workspaces\cloudchains\BlockChain\BlockChain\BLL\obj\Debug\netstandard2.0\CCS.BlockChain.BLL.pdb

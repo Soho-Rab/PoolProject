@@ -1,0 +1,9 @@
+D:\workspaces\cloudchains\LBTC\PoolProject\Common\bin\Debug\netstandard2.0\CCS.Common.deps.json
+D:\workspaces\cloudchains\LBTC\PoolProject\Common\bin\Debug\netstandard2.0\CCS.Common.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Common\bin\Debug\netstandard2.0\CCS.Common.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Common\bin\Debug\netstandard2.0\CCS.Common.xml
+D:\workspaces\cloudchains\LBTC\PoolProject\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+D:\workspaces\cloudchains\LBTC\PoolProject\Common\obj\Debug\netstandard2.0\CCS.Common.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Common\obj\Debug\netstandard2.0\CCS.Common.xml
+D:\workspaces\cloudchains\LBTC\PoolProject\Common\obj\Debug\netstandard2.0\CCS.Common.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Common\obj\Debug\netstandard2.0\Common.csprojResolveAssemblyReference.cache

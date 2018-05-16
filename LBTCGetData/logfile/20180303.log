@@ -1,0 +1,5 @@
+2018-03-03 11:29:49,125 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.Program.RunScript(String code) in D:\workspaces\cloudchains\LBTC\PoolProject\LBTCGetData\Program.cs:line 80

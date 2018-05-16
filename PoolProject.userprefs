@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{251958C6-4666-42FE-A10A-57ECEA2C4FD4}|Default">
+  <MonoDevelop.Ide.ItemProperties.LBTCGetData PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LBTCGetData/Program.cs">
+    <Files>
+      <File FileName="Model/BitCore/NodeInfo.cs" Line="78" Column="23" />
+      <File FileName="LBTCGetData/Program.cs" Line="26" Column="36" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,8 @@
+D:\workspaces\cloudchains\BlockChain\BlockChain\Service\bin\Debug\netstandard2.0\CCS.BlockChain.Service.deps.json
+D:\workspaces\cloudchains\BlockChain\BlockChain\Service\bin\Debug\netstandard2.0\CCS.BlockChain.Service.dll
+D:\workspaces\cloudchains\BlockChain\BlockChain\Service\bin\Debug\netstandard2.0\CCS.BlockChain.Service.pdb
+D:\workspaces\cloudchains\BlockChain\BlockChain\Service\obj\Debug\netstandard2.0\CCS.BlockChain.Service.csproj.CoreCompileInputs.cache
+D:\workspaces\cloudchains\BlockChain\BlockChain\Service\obj\Debug\netstandard2.0\CCS.BlockChain.Service.AssemblyInfoInputs.cache
+D:\workspaces\cloudchains\BlockChain\BlockChain\Service\obj\Debug\netstandard2.0\CCS.BlockChain.Service.AssemblyInfo.cs
+D:\workspaces\cloudchains\BlockChain\BlockChain\Service\obj\Debug\netstandard2.0\CCS.BlockChain.Service.dll
+D:\workspaces\cloudchains\BlockChain\BlockChain\Service\obj\Debug\netstandard2.0\CCS.BlockChain.Service.pdb

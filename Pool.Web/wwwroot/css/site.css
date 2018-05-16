@@ -1,0 +1,322 @@
+﻿/*#ShowChart {
+    opacity: 0;
+    position: absolute;
+    z-index: 1111;
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+}*/
+.slidermian {
+    opacity: 0;
+    position: absolute;
+    z-index: 1111;
+    background: rgba(0,0,0,0.3);
+    color: #fff;
+}
+
+#ShowChart .butSearchDiv {
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    background-color: #808080;
+}
+
+#ShowChart .topmenu {
+    padding:0px;
+    position: relative;
+    background-color: rgba(255,255,255,0.5);
+    margin-top:5px;
+}
+#ShowChart .topmenu ul {
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    overflow:hidden;
+}
+
+#ShowChart .topmenu ul li {
+    height: 38px;
+    line-height: 30px;
+    float: left;
+    list-style: none;
+    padding: 3px 20px;
+    background-color: rgb(128, 128, 128);
+    cursor:pointer;
+}
+
+#ShowChart .topmenu ul li.activeone {
+    border-bottom: 2px solid rgb(255, 0, 0);
+    background-color: rgba(0, 0, 0,0.5);
+}
+#ShowChart .topmenu ul li.rightone {
+    background-color:rgb(0, 157, 253);
+    float: right;
+    margin-left:5px;
+}
+#ShowChart .topmenu ul li.clearfix {
+    float: none;
+    clear: both;
+    margin: 0;
+    width: auto;
+    height:0;padding:0;
+}
+#myAddress {
+    width: 70%;
+    height: 36px;
+    padding: 2px 6px;
+    color: #000;
+    margin: 5px;
+    float: left;
+}
+
+#myClick {
+    width: 100px;
+    margin: 5px;
+    height: 36px;
+    padding: 2px 6px;
+    line-height: 36px;
+    color: #000;
+    float: left;
+}
+#ChartList .fixed-table-pagination {
+    padding: 11px 8px 3px 8px;
+    background-color: #fff;border:0;
+}
+#ChartList .fixed-table-pagination .pagination-detail, #ChartList .fixed-table-pagination div.pagination{
+    margin:0;
+}
+#ChartListInDiv {
+    overflow:hidden;
+    height:100%;
+    width:500%;
+}
+#ChartList .TableOutDiv {
+    background-color: #fff;
+    height: 100%;
+    float: left;
+    display: block;
+    width: 20%;
+    margin-right: 5%;
+}
+#ChartList .TableOutDiv:first-child {
+    display: block;
+}
+#ChartList {
+    color: #252525;
+    background-color: rgba(255,255,255,0.3);
+    padding: 20px;
+    overflow:hidden;
+}
+#pricing .c-font-uppercase {
+    text-decoration: line-through;
+}
+#pricing .c-price {
+    text-decoration: line-through;
+}
+
+.modal.fade:not(.in).left .modal-dialog {
+    -webkit-transform: translate3d(-25%, 0, 0);
+    transform: translate3d(-25%, 0, 0);
+}
+
+.modal.fade:not(.in).right .modal-dialog {
+    -webkit-transform: translate3d(25%, 0, 0);
+    transform: translate3d(25%, 0, 0);
+}
+
+.modal.fade:not(.in).bottom .modal-dialog {
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0);
+}
+
+/* Alternative Angles */
+
+.modal.fade:not(.in).top-left .modal-dialog {
+    -webkit-transform: translate3d(-25%, -25%, 0);
+    transform: translate3d(-25%, -25%, 0);
+}
+
+.modal.fade:not(.in).top-right .modal-dialog {
+    -webkit-transform: translate3d(25%, -25%, 0);
+    transform: translate3d(25%, -25%, 0);
+}
+
+.modal.fade:not(.in).bottom-left .modal-dialog {
+    -webkit-transform: translate3d(-25%, 25%, 0);
+    transform: translate3d(-25%, 25%, 0);
+}
+
+.modal.fade:not(.in).bottom-right .modal-dialog {
+    -webkit-transform: translate3d(25%, 25%, 0);
+    transform: translate3d(25%, 25%, 0);
+}
+.modal {
+    top:auto;
+}
+#JoinTitle {
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    background-color: rgba(255,255,255,0.8);
+    color:#000;
+}
+
+#DownLoadFiles {
+    text-align: center;
+    padding: 20px 10px;
+    position: relative;
+}
+#JoinText {
+    padding: 10px 12px 20px 12px;
+    position: relative;
+    overflow-y:scroll;
+    border:1px solid #fff;
+}
+#JoinText h1 {
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration:underline;
+}
+#JoinText h2 {
+    padding: 3px 15px;
+    color: #fff;
+    font-size: 110%;
+    text-decoration:underline;
+}
+#JoinText .h1ul {
+    padding: 2px 15px;
+}
+#JoinText .h2ul {
+    padding: 2px 20px;
+}
+#JoinText li {
+    color:#fff;
+    list-style-type:none;
+    line-height:150%;
+    padding-left:5px;
+}
+#JoinText .h1ul li {
+    padding-left: 10px;
+}
+#JoinText li a {
+    color: #fff;
+}
+#JoinText .textabout {
+    padding: 5px 20px;
+    line-height:150%;
+}
+
+    @media (min-width: 992px) {
+        /*#ShowChart {
+        width: 90%;
+        top: 100px;
+        left: 5%;
+    }*/
+        .slidermian {
+        width: 90%;
+        top: 100px;
+        left: 5%;
+    }
+    .c-desktop-logo-inverse {
+        margin: -11px -5px;
+    }
+    .c-desktop-logo {
+        margin: -4px 0px;
+    }
+}
+#JoinMa ul{vertical-align:middle;width:100%;height:100%;padding:0;}
+#JoinMa ul li{
+    float:left;
+    width:15%;
+    margin:8% 5% 5% 5%;
+    list-style:none;
+}
+#JoinMa ul li img {
+    width:100%;
+    height:auto
+}
+
+    @media (max-width: 991px) {
+        /*#ShowChart {
+        top: 36px;
+        width: 90%;
+        left: 5%;
+        margin-top:35px;
+    }*/
+        .slidermian {
+        top: 36px;
+        width: 90%;
+        left: 5%;
+        margin-top: 35px;
+        /*overflow-y: scroll;*/
+    }
+    #ChartList {
+        padding: 6px;
+    }
+    #ShowChart .butSearchDiv {
+        text-align: center;
+        padding: 10px;
+    }
+    #ShowChart .topmenu ul {
+        height:auto;
+    }
+    #ShowChart .topmenu ul li {
+        height: auto;
+        height: 30px;
+        line-height: 24px;
+        padding: 2px 0px;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+    #ShowChart .topmenu ul li.rightone {
+        float:none;
+        clear:both;
+        margin:0;
+        width:auto;
+        margin-bottom:3px;
+    }
+    #ShowChart .topmenu ul li.activebottom {
+        margin-bottom: 0px;
+    }
+    #ShowChart .topmenu ul li.activeone {
+        border-bottom: 1px solid rgb(255, 0, 0);
+    }
+    #ChartList .fixed-table-pagination .pagination-detail {
+        display:none;
+    }
+    #ChartList .fixed-table-pagination .pagination a{padding:3px 8px;}
+    #ChartList .fixed-table-pagination {
+        padding: 8px 8px 0px 8px;
+    }
+    .c-mobile-logo {
+        margin: -9px -5px;
+    }
+    .tparrows.circle {
+        display: none;
+    }
+    #JoinText{
+        background-color:rgba(0,0,0,0.8);
+        padding:5px 5px 10px 5px;
+    }
+    #DownLoadFiles {
+        padding: 5px 5px 10px 5px;
+    }
+    #DownLoadFiles .btn.c-btn-border-2x.c-btn-uppercase.btn-lg {
+        padding: 3px 10px;
+        font-size: 13px;
+        border:1px solid #fff;
+        margin:5px auto 0px auto;
+    }
+    #JoinMa ul li {
+        float: left;
+        width: 50%;
+        margin: 0;
+        text-align:center;
+    }
+    #JoinMa ul li img {
+        width:80%;
+        margin-top:10%;
+    }
+}

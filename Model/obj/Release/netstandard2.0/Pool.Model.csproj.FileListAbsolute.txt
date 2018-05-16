@@ -1,0 +1,11 @@
+D:\workspaces\cloudchains\LBTC\PoolProject\Model\bin\Release\netstandard2.0\Pool.Model.deps.json
+D:\workspaces\cloudchains\LBTC\PoolProject\Model\bin\Release\netstandard2.0\Pool.Model.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Model\bin\Release\netstandard2.0\Pool.Model.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Model\bin\Release\netstandard2.0\CCS.Common.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Model\bin\Release\netstandard2.0\CCS.Common.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Model\bin\Release\netstandard2.0\CCS.Common.xml
+D:\workspaces\cloudchains\LBTC\PoolProject\Model\obj\Release\netstandard2.0\Pool.Model.csprojResolveAssemblyReference.cache
+D:\workspaces\cloudchains\LBTC\PoolProject\Model\obj\Release\netstandard2.0\Pool.Model.csproj.CoreCompileInputs.cache
+D:\workspaces\cloudchains\LBTC\PoolProject\Model\obj\Release\netstandard2.0\Pool.Model.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Model\obj\Release\netstandard2.0\Pool.Model.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Model\obj\Release\netstandard2.0\Pool.Model.csproj.CopyComplete

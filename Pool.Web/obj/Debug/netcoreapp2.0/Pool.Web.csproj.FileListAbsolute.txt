@@ -1,0 +1,24 @@
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\Pool.Web.deps.json
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\Pool.Web.runtimeconfig.json
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\Pool.Web.runtimeconfig.dev.json
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\Pool.Web.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\Pool.Web.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\obj\Debug\netcoreapp2.0\Pool.Web.csprojResolveAssemblyReference.cache
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\obj\Debug\netcoreapp2.0\Pool.Web.csproj.CoreCompileInputs.cache
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\obj\Debug\netcoreapp2.0\Pool.Web.AssemblyInfoInputs.cache
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\obj\Debug\netcoreapp2.0\Pool.Web.AssemblyInfo.cs
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\obj\Debug\netcoreapp2.0\Pool.Web.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\obj\Debug\netcoreapp2.0\Pool.Web.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\CCS.Common.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\Pool.BLL.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\Pool.Model.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\Pool.Service.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\Pool.BLL.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\CCS.Common.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\CCS.Common.xml
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\Pool.Model.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\Pool.Service.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\obj\Debug\netcoreapp2.0\Pool.Web.csproj.CopyComplete
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\appsettings.json
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\favicon (1).ico
+D:\workspaces\cloudchains\LBTC\PoolProject\Pool.Web\bin\Debug\netcoreapp2.0\favicon.ico

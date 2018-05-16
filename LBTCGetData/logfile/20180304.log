@@ -1,0 +1,130 @@
+2018-03-04 21:44:33,724 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:33,724 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:34,407 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:35,319 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:36,319 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:37,318 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:38,314 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:39,318 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:40,302 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:41,302 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:42,303 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:43,303 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:44,306 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:45,306 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:46,377 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:47,307 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:48,307 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:49,308 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:50,305 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:51,303 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:52,313 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:53,307 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:54,308 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:55,304 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:56,307 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276
+2018-03-04 21:44:57,422 ERROR NetCorelog4net - System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   at System.Diagnostics.Process.Start()
+   at System.Diagnostics.Process.Start(ProcessStartInfo startInfo)
+   at LBTCGetData.TimerVoid.RunScript(String code) in D:\WorkSpaces\cloudchains\LBTC\PoolProject\LBTCGetData\TimerVoid.cs:line 276

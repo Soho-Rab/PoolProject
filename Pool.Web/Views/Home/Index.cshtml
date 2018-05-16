@@ -1,0 +1,557 @@
+﻿@using Pool.Model;
+@model IndexViewModel
+@{var SiteConfig = (SiteConfigInfo)ViewData["SiteConfig"];}
+@{
+    ViewData["Title"] = "首页";
+    <!--https://www.cnblogs.com/wuhuacong/p/7284420.html,分页-->
+    <!-- BEGIN: PAGE CONTAINER -->
+    <div class="c-layout-page">
+        <!-- BEGIN: PAGE CONTENT -->
+        <!-- BEGIN: LAYOUT/SLIDERS/REVO-SLIDER-8 -->
+        <section class="c-layout-revo-slider c-layout-revo-slider-8" dir="ltr">
+            <div class="tp-banner-container tp-fullscreen tp-fullscreen-mobile">
+                <div class="tp-banner rev_slider" data-version="5.0">
+                    <ul>
+                        <!--BEGIN: SLIDE #1 -->
+                        <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-style="dark">
+
+                            <img alt=""
+                                 src="@Url.Content("~/base/img/content/backgrounds/bg-105.jpg")"
+                                 data-bgposition="center center"
+                                 data-bgfit="cover"
+                                 data-bgrepeat="no-repeat">
+
+                            <!--BEGIN: ACTION BUTTON -->
+                            <div class="tp-caption randomrotateou"
+                                 data-x="center"
+                                 data-y="center"
+                                 data-hoffset=""
+                                 data-voffset="200"
+                                 data-speed="300"
+                                 data-start="1500"
+                                 data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:300;e:Back.easeInOut;"
+                                 data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:400;e:Back.easeInOut;">
+
+                            </div>
+                            <!--END -->
+                            <!--BEGIN: SUB TITLE -->
+                            <div id="firstSub" class="tp-caption customin customout"
+                                 data-x="center"
+                                 data-y="bottom"
+                                 data-hoffset="0"
+                                 data-voffset="0"
+                                 data-width="full"
+                                 data-basealign="slide"
+                                 data-speed="500"
+                                 data-start="1800"
+                                 data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
+                                 data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:600;e:Back.easeInOut;"
+                                 data-easing="Back.easeOut"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-elementdelay="0.1"
+                                 data-endelementdelay="0.1"
+                                 data-endspeed="600"
+                                 style="width: 100%;">
+                                <div class="c-action-bar">
+                                    <div class="container">
+                                        <div class="c-content ">
+                                            <h3 class="c-font-30 c-font-sbold c-font-white">
+                                                加入我们，共享矿池收益
+                                            </h3>
+                                            <p class="c-font-20 c-font-thin c-font-white c-opacity-08">
+                                                无需转币，不需要提供私钥，切实保障您的资产安全
+                                            </p>
+                                        </div>
+                                        <div class="c-btn-container">
+                                            <a href="#home" class="btn c-action-btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase" id="HowToJoin">参与细则&nbsp;##&gt</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--END -->
+
+                            <div id="ShowChart" class="slidermian">
+                                <div class="butSearchDiv">
+                                    <div class="input-group input-group-lg mobbiledelbig">
+                                        <input type="text" class="form-control" placeholder="输入您的地址..." id="YourAddress">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-danger btn-default" type="button" id="CheckCoins">查看分红</button>
+                                        </span>
+                                    </div><!-- /input-group -->
+                                </div>
+                                <div class="topmenu">
+                                    <ul id="ChartMenu">
+                                        <li class="rightone" id="HisCoins">历史收益：@Model.HisSumCoins</li>
+                                        <li class="rightone" id="NowCoins">当前收益：@Model.NowSumCoins</li>
+                                        <li class="activeone clickli" data-table="0">分红快报</li>
+                                        <li class="clickli" data-table="1">历史分红</li>
+                                        <li class="activebottom clickli" data-table="2">矿池节点</li>
+                                        <li class="activebottom clickli" data-table="3">101节点总览</li>
+                                        <li class="clearfix"></li>
+                                    </ul>
+                                </div>
+                                <div id="ChartList">
+                                    <div id="ChartListInDiv">
+                                        <div class="TableOutDiv">
+                                            <table id="NowCoinsReports">
+                                                @*<thead>
+                                    <tr>
+                                        <th data-field="NodeName">节点</th>
+                                        <th data-field="BlockTime">出块时间</th>
+                                        <th data-field="GetCoins">出块奖励</th>
+                                        <th data-field="BlockHeight">块高</th>
+                                    </tr>
+                                </thead>*@
+                                            </table>
+                                        </div>
+                                        <div class="TableOutDiv">
+                                            <table id="HisCoinsReports" class="table-tabs">
+                                                @*<thead>
+                                    <tr>
+                                        <th data-field="UserAddress">受益地址</th>
+                                        <th data-field="SetTime">分红时间</th>
+                                        <th data-field="GetCoins">分红数</th>
+                                        <th data-field="TransactionHash">交易Hash</th>
+                                    </tr>
+                                </thead>*@
+                                            </table>
+                                        </div>
+                                        <div class="TableOutDiv">
+                                            <table id="GroupVotes" class="table-tabs">
+                                                @*<thead>
+                                    <tr>
+                                        <th data-field="NodeName">节点名称</th>
+                                        <th data-field="MakeShareCoins">历史总分红</th>
+                                        <th data-field="GetRate">收益率</th>
+                                        <th data-field="NodeOrderIndex">节点排名</th>
+                                    </tr>
+                                </thead>*@
+                                            </table>
+                                        </div>
+                                        <div class="TableOutDiv">
+                                            <table id="All101Nodes" class="table-tabs">
+                                                @*<thead>
+                                    <tr>
+                                        <th data-field="NodeName">节点名称</th>
+                                        <th data-field="NodeVotes">投票数</th>
+                                        <th data-field="NodeAddress">地址</th>
+                                    </tr>
+                                </thead>*@
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!--END -->
+                        <!--BEGIN: SLIDE #2 -->
+                        <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-style="dark">
+                            <img alt=""
+                                 src="@Url.Content("~/base/img/content/backgrounds/bg-104.jpg")"
+                                 data-bgposition="center center"
+                                 data-bgfit="cover"
+                                 data-bgrepeat="no-repeat">
+
+                            <!--BEGIN: ACTION BUTTON -->
+                            <div class="tp-caption customin customout"
+                                 data-x="center"
+                                 data-y="bottom"
+                                 data-hoffset="0"
+                                 data-voffset="0"
+                                 data-width="full"
+                                 data-basealign="slide"
+                                 data-speed="500"
+                                 data-start="1800"
+                                 data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
+                                 data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:600;e:Back.easeInOut;"
+                                 data-easing="Back.easeOut"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-elementdelay="0.1"
+                                 data-endelementdelay="0.1"
+                                 data-endspeed="600"
+                                 style="width: 100%;">
+                                <div class="c-action-bar">
+                                    <div class="container">
+                                        <div class="c-content ">
+                                            <h3 class="c-font-30 c-font-sbold c-font-white">
+                                                币多者可以申请享有固定节点收益
+                                            </h3>
+                                            <p class="c-font-20 c-font-thin c-font-white c-opacity-08">
+                                                币少者可以通过投票方式享受节点分红收益，具备较好的保值增值效益
+                                            </p>
+                                        </div>
+                                        <div class="c-btn-container">
+                                            <a href="#home" class="btn c-action-btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase" id="ToSendCoins">收益发放&nbsp;##&gt</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--END -->
+
+                            <div id="JoinRole" class="slidermian">
+                                <div id="JoinTitle">
+                                    闪电比特币精英集团矿池参与规则
+                                </div>
+                                <div id="DownLoadFiles">
+                                    <a href="@SiteConfig.WalletUrl" class="btn c-action-btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">@SiteConfig.WalletName</a>
+                                    <a href="@Url.Content("~/contact_list.zip")" target="_blank" class="btn c-action-btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">矿池节点投票文件下载-(contact_list.py)</a>
+                                </div>
+                                <div id="JoinText">
+                                    <h1>LBTC精英集团_矿池网站</h1>
+                                    <ul class="h1ul">
+                                        <li><a href="http://www.lbtcelite.com">www.lbtcelite.com</a></li>
+                                        <li><a href="http://www.lbtcnode.com">www.lbtcnode.com（备用地址）</a></li>
+                                    </ul>
+                                    <h1>
+                                        LBTC精英集团_矿池宗旨
+                                    </h1>
+                                    <div class="textabout">
+                                        以社区内糖果、私募、二级市场的持币大户做为票仓基石，邀请加入LBTC精英集团（集团成员），附带社区散户（投票人），力争构建一个稳定又不失多元的节点矿池；同时我们亦会坚持回馈社区，发展LBTC社区。
+                                    </div>
+                                    <h1>
+                                        投票规则
+                                    </h1>
+
+                                    <h2>精英集团成员规则：</h2>
+                                    <ul class="h2ul">
+                                        <li>
+                                            1.所有Elite成员除了LightningBTC每周都必须贡献25%的锻造收益给投票人分红；
+                                        </li>
+                                        <li>
+                                            2.所有Elite成员除了LightningBTC每周都必须贡献5%的锻造收益作为LBTC基金，用于矿池及LBTC生态建设；
+                                        </li>
+                                        <li>
+                                            3.所有Elite成员必须为所有Elite成员投票；
+                                        </li>
+                                        <li>
+                                            4.所有Elite成员的投票地址持币不可低于最低持币要求；
+                                        </li>
+                                        <li>
+                                            5.加入成为Elite成员必须持币≥@(SiteConfig.MinNodeCoins) （暂定），满员之后不再接受新成员加入。
+                                        </li>
+                                    </ul>
+                                    <h2>投票人规则：</h2>
+                                    <ul class="h2ul">
+                                        <li>
+                                            1.为确保收到分红，您必须投票给LightningBTC节点，该节点不参与分红发放；
+                                        </li>
+                                        <li>
+                                            2.分红每周会自动发放到您的投票地址。
+                                        </li>
+                                        <li>
+                                            3.投票人是指非精英集团成员的所有投票给矿池的参与者。
+                                        </li>
+                                    </ul>
+                                    <h1>如何加入我们</h1>
+                                    <ul class="h1ul">
+                                        <li>1.首先下载轻钱包<a href="http://www.lbtc.io/">http://www.lbtc.io/</a></li>
+                                        <li>2.下载锻造节点配置文件contact_list.py ,打开钱包安装目录“\your wallet path\electrum\gui\qt\”并覆盖此文件;</li>
+                                        <li>3.打开轻钱包，在轻钱包"Delegates"页面点击“Refresh”,在列表中所显示节点请确保已经选中;</li>
+                                        <li>4.在上方的"Fee Address"里面填写您用于投票的地址，注意核对地址是否一致;</li>
+                                        <li>5.点击"Vote"进行投票。 查看图示</li>
+                                        <li>6.当您的天收益超过0.1 lbtc的时候，系统自动发币到您的投票地址。可以搜索您的投票地址实时查看收益。</li>
+                                        <li>7.LBTC社区QQ群：636065042</li>
+                                    </ul>
+                                </div>
+                        </div>
+                        </li>
+                        <!--END -->
+                        <!--BEGIN: SLIDE #3 -->
+                        <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-style="dark">
+                            <img alt=""
+                                 src="@Url.Content("~/base/img/content/backgrounds/bg-19.jpg")"
+                                 data-bgposition="center center"
+                                 data-bgfit="cover"
+                                 data-bgrepeat="no-repeat">
+
+                            <!--BEGIN: ACTION BUTTON -->
+                            <div class="tp-caption customin customout"
+                                 data-x="center"
+                                 data-y="bottom"
+                                 data-hoffset="0"
+                                 data-voffset="0"
+                                 data-width="full"
+                                 data-basealign="slide"
+                                 data-speed="500"
+                                 data-start="1800"
+                                 data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
+                                 data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:600;e:Back.easeInOut;"
+                                 data-easing="Back.easeOut"
+                                 data-splitin="none"
+                                 data-splitout="none"
+                                 data-elementdelay="0.1"
+                                 data-endelementdelay="0.1"
+                                 data-endspeed="600"
+                                 style="width: 100%;">
+                                <div class="c-action-bar">
+                                    <div class="container">
+                                        <div class="c-content ">
+                                            <h3 class="c-font-30 c-font-sbold c-font-white">
+                                                收益每周发放，交易记录与官方浏览器连通
+                                            </h3>
+                                            <p class="c-font-20 c-font-thin c-font-white c-opacity-08">
+                                                基金会运作透明规范，后期矿池会提供基金每一笔支出的明细供所有参与者审计
+                                            </p>
+                                        </div>
+                                        <div class="c-btn-container">
+                                            <a href="#home" class="btn c-action-btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase" id="ReturnToHome">&lt##&nbsp;回到首页</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--END -->
+
+                            <div id="JoinMa" class="slidermian">
+                                <ul>
+                                    <li><img src="@Url.Content("~/base/img/content/misc/chat-1.png")" alt="微信二维码"></li>
+                                    <li><img src="@Url.Content("~/base/img/content/misc/chat-2.png")" alt="微信二维码"></li>
+                                    <li><img src="@Url.Content("~/base/img/content/misc/QQ-2.png")" alt="QQ群二维码"></li>
+                                    <li><img src="@Url.Content("~/base/img/content/misc/QQ-1.png")" alt="QQ群二维码"></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <!--END -->
+                    </ul>
+                </div>
+            </div>
+        </section><!-- END: LAYOUT/SLIDERS/REVO-SLIDER-8 -->
+
+        <section id="features">
+            <!-- BEGIN: CONTENT/PRODUCTS/PRODUCT-1 -->
+            <div class="c-content-box c-size-md c-bg-white c-no-bottom-padding">
+                <div class="container">
+                    <div class="c-content-product-1 c-opt-1">
+                        <div class="c-content-title-1">
+                            <h3 class="c-center c-font-uppercase c-font-bold">矿池简介</h3>
+                            <div class="c-line-center"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 wow animate slideInUp">
+                                <div class="c-media">
+                                    <img src="@Url.Content("~/base/img/content/misc/jango-intro-3.png")" alt="" />
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="c-body">
+                                    <ul class="c-row">
+                                        <li class="wow animate fadeInUp">
+                                            <h4>矿池规模</h4>
+                                            <p>初期已开通@(Model.NodeAllCount)台LBTC矿机，后期视情况会开通更多或其它DPoS代币矿池。矿池收益绝大部分用于分红</p>
+                                        </li>
+                                        <li class="wow animate fadeInUp">
+                                            <h4>安全保障</h4>
+                                            <p>只需要提供您的地址，不需要转币，也不需要导入密钥等操作，你的数字代币资产依然在您的钱包中</p>
+                                        </li>
+                                    </ul>
+                                    <ul class="c-row">
+                                        <li class="wow animate fadeInUp">
+                                            <h4>如何参与</h4>
+                                            <p>您可以以超过@(SiteConfig.MinNodeCoins)币向我们申请个人节点，也可以投票给我们矿池节点获取分红收益</p>
+                                        </li>
+                                        <li class="wow animate fadeInUp">
+                                            <h4>获取收益</h4>
+                                            <p>我们每周定期发放分红，您可以通过我们的系统查询您的当前和历史收益情况。后继我们会提供更详细的统计报告</p>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn btn-md c-btn-border-2x c-btn-square c-btn-regular c-btn-uppercase c-btn-bold c-margin-b-100 morebutnothing">更多详情</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- END: CONTENT/PRODUCTS/PRODUCT-1 -->
+        </section>
+
+        <section id="clients">
+            <!-- BEGIN: CONTENT/TESTIMONIALS/TESTIMONIALS-6-5 -->
+            <div class="c-content-box c-size-lg c-bg-parallax" style="background-image: url('@Url.Content("~/base/img/content/backgrounds/bg-102.jpg")')">
+                <div class="container">
+                    <div class="c-content-blog-post-card-1-slider" data-slider="owl">
+                        <div class="c-content-title-1">
+                            <h3 class="c-center c-font-uppercase c-font-white c-font-bold">团队介绍</h3>
+                            <div class="c-line-center c-theme-bg"></div>
+                            <p class="c-center c-font-white">~合作~专业~快速~公开~透明~权威~</p>
+                        </div>
+                        <div class="owl-carousel owl-theme c-theme c-owl-nav-center" data-items="3" data-slide-speed="8000" data-rtl="false">
+                            <div class="item">
+                                <div class="c-content-testimonial-3 c-option-dark-transparent">
+                                    <div class="c-content">
+                                        技术达人，具有强烈的产品洁癖，DPoS共识狂热支持者，币圈资深玩家，LBTC成长见证人
+                                    </div>
+                                    <div class="c-person">
+                                        <img src="@Url.Content("~/base/img/content/avatars/tt-1.jpg")" class="img-responsive">
+                                        <div class="c-person-detail c-font-uppercase">
+                                            <h4 class="c-name">@@七号</h4>
+                                            <p class="c-position c-font-bold c-theme-font">CEO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="c-content-testimonial-3 c-option-dark-transparent">
+                                    <div class="c-content">
+                                        LBTC中文社区资深架构师，区块链信仰者和布道者，横跨币链两个圈子，矿池技术负责人
+                                    </div>
+                                    <div class="c-person">
+                                        <img src="@Url.Content("~/base/img/content/avatars/tt-2.jpg")" class="img-responsive">
+                                        <div class="c-person-detail c-font-uppercase">
+                                            <h4 class="c-name">@@沈凌</h4>
+                                            <p class="c-position c-font-bold c-theme-font">CTO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="c-content-testimonial-3 c-option-dark-transparent">
+                                    <div class="c-content">
+                                        傻白甜？没关系！反正就是本着为LBTC社区服务的态度，兢兢业业面对每一个小白问题
+                                    </div>
+                                    <div class="c-person">
+                                        <img src="@Url.Content("~/base/img/content/avatars/tt-3.jpg")" class="img-responsive">
+                                        <div class="c-person-detail c-font-uppercase">
+                                            <h4 class="c-name">@@117</h4>
+                                            <p class="c-position c-font-bold c-theme-font">COO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           <div class="item">
+                                <div class="c-content-testimonial-3 c-option-dark-transparent">
+                                    <div class="c-content">
+                                        多年财经出版经验，热爱金融圈，对数字资产政策、风控、运营等方面有较深的理解
+                                    </div>
+                                    <div class="c-person">
+                                        <img src="@Url.Content("~/base/img/content/avatars/tt-6.jpg")" class="img-responsive">
+                                        <div class="c-person-detail c-font-uppercase">
+                                            <h4 class="c-name">@@茅台君</h4>
+                                            <p class="c-position c-font-bold c-theme-font">CPO</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="c-content-testimonial-3 c-option-dark-transparent">
+                                    <div class="c-content">
+                                        点付大头发起的千方基金合伙人，主要负责海外项目对接。很荣幸邀请成为矿池总顾问
+                                    </div>
+                                    <div class="c-person">
+                                        <img src="@Url.Content("~/base/img/content/avatars/tt-4.jpg")" class="img-responsive">
+                                        <div class="c-person-detail c-font-uppercase">
+                                            <h4 class="c-name">@@沈毅</h4>
+                                            <p class="c-position c-font-bold c-theme-font">Counselor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="c-content-testimonial-3 c-option-dark-transparent">
+                                    <div class="c-content">
+                                        如果您对LBTC、DPoS共识有着强烈认同感，或其他社区资源，我们将非常欢迎您的加盟
+                                    </div>
+                                    <div class="c-person">
+                                        <img src="@Url.Content("~/base/img/content/avatars/tt-5.jpg")" class="img-responsive">
+                                        <div class="c-person-detail c-font-uppercase">
+                                            <h4 class="c-name">@@More</h4>
+                                            <p class="c-position c-font-bold c-theme-font">Wellcome</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- END: CONTENT/TESTIMONIALS/TESTIMONIALS-6-5 -->
+        </section>
+
+        <section id="stats">
+            <!-- BEGIN: CONTENT/STATS/COUNTER-1 -->
+            <div class="c-content-box c-size-md c-bg-white">
+                <div class="container">
+                    <div class="c-content-counter-1 c-opt-1">
+                        <div class="c-content-title-1">
+                            <h3 class="c-center c-font-uppercase c-font-bold">矿池预览</h3>
+                            <div class="c-line-center"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="c-counter c-theme-border c-font-bold c-theme-font" data-counter="counterup">@Math.Round(Model.VotesSum)</div>
+                                <h4 class="c-title c-first c-font-uppercase c-font-bold">节点总票数</h4>
+                                <p class="c-content">更多成员将会助推节点票数增长，矿池节点也将始终保持在挖矿序列，对于LBTC生态也大有裨益</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="c-counter c-theme-border c-font-bold c-theme-font" data-counter="counterup">@Model.HisSumCoins</div>
+                                <h4 class="c-title c-font-uppercase c-font-bold">总分红收益</h4>
+                                <p class="c-content">矿池自推出后，节点能够稳定保持在挖矿序列，这带给了广大支持我们的用户持续不断的收益</p>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="c-counter c-theme-border c-font-bold c-theme-font" data-counter="counterup">@Model.UsersSum</div>
+                                <h4 class="c-title c-font-uppercase c-font-bold">总注册人数</h4>
+                                <p class="c-content">自开通注册以来，会员人数快速增长。基金会将拿出部分收益用于分享和支持LBTC生态发展</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END: CONTENT/STATS/COUNTER-1 -->
+        </section>
+
+        <section id="pricing">
+            <!-- BEGIN: CONTENT/PRICING/PRICING-1 -->
+            <div class="c-content-box c-size-md c-bg-grey-1">
+                <div class="container">
+                    <div class="c-content-pricing-1">
+                        <div class="c-content-title-1">
+                            <h3 class="c-center c-font-uppercase c-font-bold">最新发布</h3>
+                            <div class="c-line-center"></div>
+                        </div>
+                        <div class="c-tile-container">
+                            <div class="c-tile c-tile-small wow animate fadeInLeft">
+                                <div class="c-label c-theme-bg">矿池分红</div>
+                                <p class="c-price">21<sup>周</sup></p>
+                                <p class="c-font-uppercase">18年2月第4周</p>
+                                <p class="c-font-uppercase">18年3月第1周</p>
+                                <p class="c-font-uppercase">18年3月第2周</p>
+                                <p class="c-font-uppercase">18年3月第3周</p>
+                                <button type="button" class="btn btn-md c-btn-square c-btn-border-2x c-btn-regular c-btn-uppercase c-btn-bold morebutnothing">更多</button>
+                            </div>
+                            <div class="c-tile wow animate fadeInUp">
+                                <div class="c-label c-theme-bg">公益行动</div>
+                                <p class="c-price">17<sup>次</sup></p>
+                                <p class="c-font-uppercase">“XXX项目”赞助</p>
+                                <p class="c-font-uppercase">18年元宵彩礼行动</p>
+                                <p class="c-font-uppercase">种下一棵绿色的树</p>
+                                <p class="c-font-uppercase">“LBTC杰出员工”鼓励</p>
+                                <button type="button" class="btn btn-md c-btn-square c-btn-border-2x c-btn-regular c-btn-uppercase c-btn-bold morebutnothing">更多</button>
+                            </div>
+                            <div class="c-tile c-tile-small wow animate fadeInRight">
+                                <div class="c-label c-theme-bg">DPoS相关</div>
+                                <p class="c-price">31<sup>条</sup></p>
+                                <p class="c-font-uppercase">POW、POS、DPoS面面关</p>
+                                <p class="c-font-uppercase">主流DPoS机制代币分析</p>
+                                <p class="c-font-uppercase">闪电比特币未来定位</p>
+                                <p class="c-font-uppercase">关于18年上半年监管预测</p>
+                                <button type="button" class="btn btn-md c-btn-square c-btn-border-2x c-btn-regular c-btn-uppercase c-btn-bold morebutnothing">更多</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END: CONTENT/PRICING/PRICING-1 -->
+        </section>
+
+        <section id="contact"></section>
+        <!-- END: PAGE CONTENT -->
+    </div>
+    <!-- END: PAGE CONTAINER -->
+}
+@section Scripts{
+    <environment names="Development">
+        <script type="text/javascript" src="@Url.Content("~/js/site.js")"></script>
+    </environment>
+    <environment names="Staging,Production">
+        <script type="text/javascript" src="@Url.Content("~/js/site.min.js")"></script>
+    </environment>
+}

@@ -1,0 +1,15 @@
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\obj\Debug\netstandard2.0\Pool.Service.csproj.CoreCompileInputs.cache
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\obj\Debug\netstandard2.0\Pool.Service.csprojResolveAssemblyReference.cache
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\bin\Debug\netstandard2.0\Pool.Service.deps.json
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\bin\Debug\netstandard2.0\Pool.Service.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\bin\Debug\netstandard2.0\Pool.Service.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\bin\Debug\netstandard2.0\CCS.Common.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\bin\Debug\netstandard2.0\Pool.BLL.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\bin\Debug\netstandard2.0\Pool.Model.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\bin\Debug\netstandard2.0\Pool.BLL.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\bin\Debug\netstandard2.0\Pool.Model.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\bin\Debug\netstandard2.0\CCS.Common.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\bin\Debug\netstandard2.0\CCS.Common.xml
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\obj\Debug\netstandard2.0\Pool.Service.dll
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\obj\Debug\netstandard2.0\Pool.Service.pdb
+D:\workspaces\cloudchains\LBTC\PoolProject\Service\obj\Debug\netstandard2.0\Pool.Service.csproj.CopyComplete

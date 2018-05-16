@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Share\PoolAssemblyInfo.cs" Link="Properties\PoolAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlSugarCore" Version="4.6.4.6" />
+    <PackageReference Include="MySql.Data" Version="6.10.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\Model\Pool.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="devfile\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="C:\Users\DevC\.nuget\packages\mysql.data\6.10.5\contentFiles\any\netstandard2.0\app.config.transform" Link="devfile\app.config.transform" />
+    <Content Update="C:\Users\DevC\.nuget\packages\mysql.data\6.10.5\contentFiles\any\netstandard2.0\web.config.transform" Link="devfile\web.config.transform" />
+    <Content Update="C:\Users\DevC\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard2.0\app.config.transform" Link="devfile\app.config.transform" />
+    <Content Update="C:\Users\DevC\.nuget\packages\mysql.data\6.10.6\contentFiles\any\netstandard2.0\web.config.transform" Link="devfile\web.config.transform" />
+  </ItemGroup>
+
+</Project>
